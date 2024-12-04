@@ -217,8 +217,8 @@ return {
                 whitespace = palette.dragonBlack6,
                 nontext    = palette.dragonBlack6,
 
-                bg_visual  = palette.waveBlue1,
-                bg_search  = palette.waveBlue2,
+                bg_visual  = "none",
+                bg_search  = "none",
 
                 pmenu      = {
                     fg       = palette.fujiWhite,
