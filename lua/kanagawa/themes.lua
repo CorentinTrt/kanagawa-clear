@@ -122,8 +122,8 @@ return {
                 float      = {
                     fg        = palette.oldWhite,
                     bg        = palette.sumiInk0,
-                    fg_border = "none",
-                    bg_border = "none",
+                    fg_border = palette.sumiInk6,
+                    bg_border = palette.sumiInk0,
                 },
             },
             syn = {
@@ -193,6 +193,7 @@ return {
             },
         }
     end,
+
     ---@param palette PaletteColors
     ---@return ThemeColors
     dragon = function(palette)
@@ -231,8 +232,8 @@ return {
                 float      = {
                     fg        = palette.oldWhite,
                     bg        = palette.dragonBlack0,
-                    fg_border = palette.sumiInk6,
-                    bg_border = palette.dragonBlack0,
+                    fg_border = "none",
+                    bg_border = "none",
                 },
             },
             syn = {
@@ -296,6 +297,7 @@ return {
             },
         }
     end,
+
     ---@param palette PaletteColors
     ---@return ThemeColors
     lotus = function(palette)
