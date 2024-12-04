@@ -124,7 +124,7 @@ function M.setup(colors, config)
         -- TabLine		Tab pages line, not active tab page label.
         TabLine = { bg = "NONE", fg = theme.ui.special },
         -- TabLineFill	Tab pages line, where there are no labels.
-        TabLineFill = { bg = theme.ui.bg },
+        TabLineFill = { bg = "NONE" },
         -- TabLineSel	Tab pages line, active tab page label.
         TabLineSel = { fg = theme.ui.fg_dim, bg = theme.ui.bg_p1 },
         -- Title		Titles for output from ":set all", ":autocmd" etc.
