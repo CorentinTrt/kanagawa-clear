@@ -217,13 +217,13 @@ return {
                 whitespace = palette.dragonBlack6,
                 nontext    = palette.dragonBlack6,
 
-                bg_visual  = "none",
-                bg_search  = "none",
+                bg_visual  = palette.waveBlue1,
+                bg_search  = palette.waveBlue2,
 
                 pmenu      = {
                     fg       = palette.fujiWhite,
                     fg_sel   = "none",
-                    bg       = palette.waveBlue1,
+                    bg       = "none",
                     bg_sel   = palette.waveBlue2,
                     bg_thumb = palette.waveBlue2,
                     bg_sbar  = palette.waveBlue1,
@@ -236,6 +236,7 @@ return {
                     bg_border = "none",
                 },
             },
+
             syn = {
                 string     = palette.dragonGreen2,
                 variable   = "none",
