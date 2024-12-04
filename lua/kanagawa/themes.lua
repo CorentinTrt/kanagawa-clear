@@ -223,7 +223,7 @@ return {
                 pmenu      = {
                     fg       = palette.fujiWhite,
                     fg_sel   = "none",
-                    bg       = "none",
+                    bg       = palette.waveBlue1,
                     bg_sel   = palette.waveBlue2,
                     bg_thumb = palette.waveBlue2,
                     bg_sbar  = palette.waveBlue1,
