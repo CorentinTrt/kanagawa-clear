@@ -34,7 +34,7 @@ function M.setup(colors, config)
         TreesitterContext = { link = "Folded" },
         TreesitterContextLineNumber = { fg = theme.ui.special, bg = theme.ui.bg_gutter },
         -- Telescope
-        TelescopeBorder = { fg = theme.ui.float.fg_border, bg = theme.ui.bg },
+        TelescopeBorder = { fg = theme.ui.float.fg_border, bg = "NONE" },
         TelescopeTitle = { fg = theme.ui.special },
         TelescopeSelection = { link = "CursorLine" },
         TelescopeSelectionCaret = { link = "CursorLineNr" },
