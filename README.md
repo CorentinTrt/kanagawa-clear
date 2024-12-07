@@ -1,5 +1,5 @@
 <p align="center">
-  <h2 align="center">🌊 KANAGAWA.nvim 🌊</h2>
+  <h2 align="center">kanagawa-clear from [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim)</h2>
 </p>
 
 <p align="center">
