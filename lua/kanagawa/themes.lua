@@ -231,8 +231,8 @@ return {
 
                 float      = {
                     fg        = palette.oldWhite,
-                    bg        = palette.dragonBlack0,
-                    fg_border = "none",
+                    bg        = "none",
+                    fg_border = palette.sumiInk6,
                     bg_border = "none",
                 },
             },
